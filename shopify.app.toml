@@ -2,7 +2,7 @@
 
 client_id = "6e0128ebb871b23c789ef3310b819ed2"
 name = "my-shopfy-app"
-application_url = "https://example.com"
+application_url = "https://my-shopfy-app-2.onrender.com"
 embedded = true
 
 [access_scopes]
@@ -45,7 +45,7 @@ api_version = "2026-07"
   topics = [ "app/scopes_update" ]
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://my-shopfy-app-2.onrender.com/auth/callback" ]
 
 [build]
 include_config_on_deploy = true
